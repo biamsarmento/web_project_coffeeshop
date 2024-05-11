@@ -214,3 +214,120 @@
 .recipes__video-caption p {
   margin: 0;;
 }
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  height: 100%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #D9E7FF;
+  background-image: url("../images/background_reservation.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.reservation__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #000;
+  max-width: 580px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.reservation__form {
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.form {
+  box-sizing: border-box;
+  font-family: "Inter", Arial, sans-serif;
+  max-width: 385px;
+  width: 100%;
+}
+
+.form__fieldset {
+  margin: auto;
+  border: 0;
+  padding: 0;
+}
+
+.form__label {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+.form__label_checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.form__input {
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-color: #838383;
+  border: 1px solid #838383;
+  height: 60px;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  padding: 15px 20px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::placeholder {
+  color: #838383;
+}
+
+.form__button {
+  border-radius: 4px;
+  width: 30px 30px;
+  max-width: 385px;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  background-color: #2f80ed;
+  margin-bottom: 32px;
+  color: #FFFFFF;
+  border: 0;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  border-color: #838383;
+  background-color: #2F80ED;
+  background-image: url(../images/check.svg);
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.form__label_ckeckbox-text {
+  padding: 0;
+  margin: 0;
+}
