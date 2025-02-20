@@ -15,7 +15,7 @@ The goal of this project was to create a website that simulates the ambiance of 
 
 ## 🚀 Outcome
 
-- Link to the website: [[ https://your-coffeeshop-project-link.com  ](https://biamsarmento.github.io/web_project_coffeeshop/#recipes)](https://biamsarmento.github.io/web_project_coffeeshop/#recipes)
+- Link to the website: (https://biamsarmento.github.io/web_project_coffeeshop)
 <img width="1598" alt="Captura de Tela 2025-02-20 às 15 39 20" src="https://github.com/user-attachments/assets/a3281162-aebc-48c7-bfdd-493863850437" />
 
 ## 🛠️ Technologies and Tools Used
